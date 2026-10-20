@@ -1,0 +1,86 @@
+
+:root {
+    /* Colors */
+    --color-background: #18537B;
+    --color-surface: #3F9CC7;
+    --color-primary: #315c9b;
+    --color-secondary: #8ca6c8;
+    --color-text: #271312;
+    --color-text-light: #ffffff;
+    --color-border: #BC8E44;
+
+    /* Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 32px;
+
+    /* Other */
+    --border-radius: 8px;
+    --content-width: 1000px;
+
+    /* Font */
+    --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+* {
+    box-sizing: border-box;
+}
+button {
+    font-family: var(--font);
+    color: var(--color-text);
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    height: 130px;
+    width: 130px;
+    margin: auto;
+}
+body {
+    font-family: var(--font);
+    color: var(--color-text);
+    background: var(--color-background);
+    min-height: 100vh;
+    line-height: 1.5;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, p {
+    margin-top: 0;
+}
+.die-box {
+    width: 300px;
+    border: 5px solid var(--color-border);
+    padding: 50px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.dice {
+    width: 150px;
+    height: 130px;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(
+        25% 0%,
+        75% 0%,
+        100% 50%,
+        75% 100%,
+        25% 100%,
+        0% 50%
+    );
+}
+.dice-inner {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: var(--color-border);
+    clip-path: polygon(50% 25%, 75% 75%, 25% 75%);
+}
