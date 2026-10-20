@@ -1,0 +1,28 @@
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #E4EDEA;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+.kortti {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 12px;
+}
+
+button {
+  background: none;
+  border: none;
+  color: #1B6B5A;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,78 @@
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tag Along</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+
+  <!-- LISTA -->
+  <div id="lista">
+    <h1>Avoimet porukat</h1>
+    <p>Hyppää valmiiseen porukkaan</p>
+    <div style="float:right; font-size:28px; margin-top:-50px;">👤</div>
+
+    <div class="kortti" onclick="naytaLounas()">
+      <h2>🍴 Lounas</h2>
+      <p>Pasilan ravintola</p>
+      <p>12:15 &nbsp;&nbsp;&nbsp; 2 paikkaa vapaana</p>
+    </div>
+
+    <div class="kortti" onclick="naytaOpiskelu()">
+      <h2>📚 Opiskelu</h2>
+      <p>Kirjasto</p>
+      <p>13:00 &nbsp;&nbsp;&nbsp; 1 paikka vapaa</p>
+    </div>
+
+    <div class="kortti" onclick="naytaTauko()">
+      <h2>☕ Tauko</h2>
+      <p>Kahvila</p>
+      <p>14:00 &nbsp;&nbsp;&nbsp; 3 paikkaa vapaana</p>
+    </div>
+
+    <div class="kortti" onclick="naytaKayvely()">
+      <h2>🚶 Liikunta / Kävely</h2>
+      <p>Pasilan puisto</p>
+      <p>16:15 &nbsp;&nbsp;&nbsp; 2 paikkaa vapaana</p>
+    </div>
+  </div>
+
+  <!-- TIEDOT -->
+  <div id="tiedot" style="display:none;">
+    <button onclick="naytaLista()">←</button>
+    <h1 id="otsikko">Lounas</h1>
+    <div class="kortti">
+      <p><b>SIJAINTI</b><br><span id="paikka">Pasilan ravintola</span></p>
+      <p><b>AIKA</b><br><span id="aika">tänään 12:15</span></p>
+      <p><b>PAIKKOJA VAPAANA</b><br><span id="paikat">2 paikkaa vapaana</span></p>
+      <p><b>KUVAUS</b><br><span id="kuvaus">Mennään syömään...</span></p>
+      <button onclick="naytaMukana()" style="background:#C2410C; color:white; width:100%; padding:15px; border:none; border-radius:10px;">Liity</button>
+      <br><br>
+      <button onclick="naytaLista()">Takaisin ryhmälistaan</button>
+    </div>
+  </div>
+
+  <!-- OLET MUKANA -->
+  <div id="mukana" style="display:none;">
+    <h1>Olet mukana!</h1>
+    <div class="kortti">
+      <p><b>Lounas</b><br>tänään 12:15 · Pasilan ravintola</p>
+      <div style="background:#f0f0f0; padding:10px; margin:10px 0; border-radius:10px;">
+        <b>Siiri</b><br>Moi! Tervetuloa.
+      </div>
+      <div style="background:#1B6B5A; color:white; padding:10px; margin:10px 0; border-radius:10px; text-align:right;">
+        Kiitos. Missä ootte nyt?
+      </div>
+      <div style="background:#f0f0f0; padding:10px; margin:10px 0; border-radius:10px;">
+        <b>Siiri</b><br>Ihan kohta siinä aulassa
+      </div>
+      <input type="text" placeholder="Kirjoita viesti..." style="width:100%; padding:10px; margin:10px 0;">
+      <button onclick="naytaLista()">Poistu porukasta</button>
+    </div>
+  </div>
+
+</body>
+</html>
