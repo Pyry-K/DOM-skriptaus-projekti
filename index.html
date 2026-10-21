@@ -4,28 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>To-Do Randomizer</title>
     <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="img\icon.png"
+    />
     <script src="js/script.js" defer></script>
 </head>
 <body>
 
     <header>
-        <h1>Tehtävä arpoja</h1>
+        <h1>To-Do Randomizer</h1>
     </header>
 
     <main>
         <section id="home">
             <h2>Can't decide what to do? We can sort that out.</h2>
             <br>
-            <!-- Tähän nykyinen tehtävä, jos tehtäviä ei ole, about teksti "Aloitetaan lissämällä ensin tehtäviä"-->
-            <!--  Optimaalisesti siin ois (tarvittaessa) linkki alemmas, tohon tehtävä kohtaan-->
-            <h2>*current card</h2>
-            <!-- sellanen nuoli seuraavaan / taakseppäin-->
-             <h2>*next card</h2>
+            <div class = "form-box">
+                <b id="nykyinenKortti"></b>
+            </div>
+            <h3 id="total">Total items in list: 0</h3>
             <br>
-            <h2>Click here to randomise:</h2>
-            <div class="die-box">
+            <h2>Click here to randomize:</h2>
+            <div class="die-box" id="die-box">
                 <div class="dice">
                     <svg viewBox="0 0 300 270" width="300">
                         <polygon points="150,10 270,75 270,195 150,260 30,195 30,75" fill="#1E6C9A" stroke="#111827"/>
@@ -39,27 +43,62 @@
                         <polygon points="90,195 210,195 150,260" fill="#267DA9" stroke="#111827"/>
                         <polygon points="210,195 270,195 150,260" fill="#2274A1" stroke="#111827"/>
                     </svg>
-                    <button id="button" type="button">
-                        <b id="noppa-text">20</b>
+                    <button class= "roll" id="roll" type="button">
+                        <b id="noppaTxT">Click to Roll</b>
                     </button>
                 </div>
             </div>
         </section>
+        <!-- Skini muokkaus -->
+        <section id="customize">
+            <h2>Customization</h2>
+            <button class= "customizationToggle" id="customizationToggle" type="button">
+                Customize
+            </button>
+            <div class= "customizationMenu" id="customizationMenu" hidden>
+                <label for="backgroundColor">Background</label>
+                <select class= "defMenu" id="backgroundColor">
+                    <option value="#1E6C9A">Azure</option>
+                    <option value="#302F6C">Twilight</option>
+                    <option value="#1B2C0B">Wise Mystical Tree</option>
+                </select>
+                <!-- Muista vaihtaa värit muuttujiksi! -->
+                <label for="diceColor">Dice</label>
+                <select class= "defMenu" id="diceColor">
+                    <option value="blue">Azure</option>
+                    <option value="purple">Twilight</option>
+                    <option value="green">Wise Mystical Tree</option>
+                </select>
+                <label for="boxColor">Box</label>
+                <select class= "defMenu" id="boxColor">
+                    <option value="#36A0C8">Azure</option>
+                    <option value="#504BB7">Twilight</option>
+                    <option value="#939060">Wise Mystical Tree</option>
+                </select>
+                <label for="textColor">Text</label>
+                <select class= "defMenu" id="textColor">
+                    <option value="#EFFFFF">Azure</option>
+                    <option value="#C2FFFE">Twilight</option>
+                    <option value="#D3FFBB">Wise Mystical Tree</option>
+                </select>
+                <br>
+            </div>
+        </section>
         <!-- Tähän lomake, jolla voit sitten lisätä kortteja -->
-        <section id="lomake">
-            <h2>Lisää tehtävät</h2>
+        <section id="card">
+            <h2>Add things To-Do</h2>
             <div class="form-box">
-                <form>
-                    <label for="tehtava">Anna tehtävä:</label><br>
-                    <input type="text" id="tehtava" name="tehtava"><br>
-                    <input type="submit" value="Submit">
+                <form id="korttiForm">
+                    <label for="kortti">Anna tehtävä:</label><br>
+                    <input class="defmenu" id="korttiInput" type="text" required>
+                    <input class="defMenu" type="submit" value="Submit">
                 </form>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>2026 My Website</p>
+        <p>2026 Pyry & Valtteri</p>
     </footer>
 
 </body>

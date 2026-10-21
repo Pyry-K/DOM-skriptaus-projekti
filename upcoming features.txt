@@ -1,0 +1,10 @@
+FEATURES TO ADD:
+- skins:
+    - lisää skinejä
+- achievementit:
+    - First of many = rollaat ensimmäisen kerran
+    - legenrary roller = rollaat 50 kertaa
+    - unlucky = rollaat 3 kertaa saman
+    - dicey = suorita ensimmäinen task
+- loot boxes
+- battlepass

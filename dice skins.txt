@@ -1,27 +1,35 @@
-Taivaan sininen:
-<svg viewBox="0 0 300 270" width="300">
-    <polygon points="150,10 270,75 270,195 150,260 30,195 30,75" fill="#1E6C9A" stroke="#111827"/>
-    <polygon points="150,10 150,65 30,75" fill="#4ACBEE" stroke="#111827"/>
-    <polygon points="150,10 270,75 150,65" fill="#47C6E9" stroke="#111827"/>
-    <polygon points="30,75 90,195 30,195" fill="#45C1E5" stroke="#111827"/>
-    <polygon points="30,75 150,65 90,195" fill="#3CAED4" stroke="#111827"/>
-    <polygon points="150,65 90,195 210,195" fill="#36A0C8" stroke="#111827"/>
-    <polygon points="150,65 270,75 210,195" fill="#3298C1" stroke="#111827"/>
-    <polygon points="30,195 90,195 150,260" fill="#2C8BB5" stroke="#111827"/>
-    <polygon points="90,195 210,195 150,260" fill="#267DA9" stroke="#111827"/>
-    <polygon points="210,195 270,195 150,260" fill="#2274A1" stroke="#111827"/>
-</svg>
+Azure:
+//"#1E6C9A"
+//"#4ACBEE"
+//"#47C6E9"
+//"#45C1E5"
+//"#3CAED4"
+//"#36A0C8"
+//"#3298C1"
+//"#2C8BB5"
+//"#267DA9"
+//"#2274A1"
 
-Twilight
-<svg viewBox="0 0 300 270" width="300">
-    <polygon points="150,10 270,75 270,195 150,260 30,195 30,75" fill="#302F6C" stroke="#111827"/>
-    <polygon points="150,10 150,65 30,75" fill="#5F57D9" stroke="#111827"/>
-    <polygon points="150,10 270,75 150,65" fill="#5C55D2" stroke="#111827"/>
-    <polygon points="30,75 90,195 30,195" fill="#5952CB" stroke="#111827"/>
-    <polygon points="30,75 150,65 90,195" fill="#554FC2" stroke="#111827"/>
-    <polygon points="150,65 90,195 210,195" fill="#504BB7" stroke="#111827"/>
-    <polygon points="150,65 270,75 210,195" fill="#4A46AA" stroke="#111827"/>
-    <polygon points="30,195 90,195 150,260" fill="#434099" stroke="#111827"/>
-    <polygon points="90,195 210,195 150,260" fill="#3D3A8A" stroke="#111827"/>
-    <polygon points="210,195 270,195 150,260" fill="#38367E" stroke="#111827"/>
-</svg>
+Twilight:
+//"#302F6C"
+//"#5F57D9"
+//"#5C55D2"
+//"#5952CB"
+//"#554FC2"
+//"#504BB7"
+//"#4A46AA"
+//"#434099"
+//"#3D3A8A"
+//"#38367E"
+
+Wise Mystical Tree:
+//"#1B2C0B"
+//"#FBE3B0"
+//"#F2D9A7"
+//"#E9CF9E"
+//"#D3B887"
+//"#B79A69"
+//"#4B611C"
+//"#415618"
+//"#374B15"
+//"#2A3C10"
