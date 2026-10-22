@@ -26,7 +26,7 @@ Sovelluksen tarkoitus on helpottaa valinanvaikeutta sen käyttäjissä. Käyttä
 
 # Rautalankamalli / luonnos
 
-![alkuperäinen luonnos](image.png)
+![alkuperäinen luonnos](https://github.com/Pyry-K/DOM-skriptaus-projekti/blob/main/img/image.png)
 
 Luonnos on melko yksinkertainen ja joitaain toimintoja, kuten kosmetiikat, ei oltu vielä edes ajateltu.
 
@@ -64,7 +64,7 @@ Erityistä huomioitavaa on svg:n käyttö nopan graafisessa muodostamisessta.
 
 # Kuvakaappaukset
 Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksestasi.
-![Sovellus toiminnassa](image-1.png)
+![Sovellus toiminnassa](https://github.com/Pyry-K/DOM-skriptaus-projekti/blob/main/img/image-1.png)
 
 # Tunnetut virheet / puutteet
 Ei tunnettuja virheitä.
