@@ -12,7 +12,7 @@ Idea saada satunnainen valitsin yhdistettyä To Do listaan syntyi. Jos ei itse s
 
 Motivaatio ongelman päätimme ratkaista tekemällä listasta toimivan lisäksi myös mielekkään ja helppokäyttöisen. Keskeisin "mielekkyys ominaisuus", satunnaisuuden kuvastamisen lisäksi, on sivulla oleva noppa. Nopan tarkoitus on tuoda käyttäjälle pelihenkeä tekemiseen, jotta kaikista tylsimmätkin tehtävät saadaan tuntumaan, ainakin vähän vähemmän, työltä. Noppa myös toimi pohjana eri kosmetiikoille, mitkä ovat käyttäjälle valittavissa.Tällä hetkellä valittavissa on vain kolme eri väriteemaa, mutta näistä muodostuu jo 64 eri vaihtoehtoa koko sivulle.
 
-Tämänhetkinen "1.0" versio ei vielä hyödynnä suunniteltuja ominaisuuksia vielä täydessä mitassa, sillä ominaisuuksiaen skaala on pieni. Ne kuitenkin ovat kuitenkin porkkanana käyttää motivoimassa. Tulevia suunniteltuja ominaisuuksia ovat mm. uudet kosmetiikat ja saavutukset, jotka motivoivat käyttäjää entisestään tekemään annetut tehtävät, mutta myös palaamaan sovellukseen, ja kokeilemaan sen muita tulevia ominaisuuksia. Lisäksi myöhemmin tulevaisuudessa sovellusta on tarkoitus kaupallistaa maksullisilla kosmetiikoilla ja Battle Pass -idealla, joka varmistaa asiakkaiden palaamista ja luo eksklusiivisia kosmetiikkoja sovellusta eniten käyttäville.
+Tämän hetkinen "1.0" versio ei vielä hyödynnä suunniteltuja ominaisuuksia vielä täydessä mitassa, sillä ominaisuuksiaen skaala on pieni. Ne kuitenkin ovat kuitenkin porkkanana käyttää motivoimassa. Tulevia suunniteltuja ominaisuuksia ovat mm. uudet kosmetiikat ja saavutukset, jotka motivoivat käyttäjää entisestään tekemään annetut tehtävät, mutta myös palaamaan sovellukseen, ja kokeilemaan sen muita tulevia ominaisuuksia. Lisäksi myöhemmin tulevaisuudessa sovellusta on tarkoitus kaupallistaa maksullisilla kosmetiikoilla ja Battle Pass -idealla, joka varmistaa asiakkaiden palaamista ja luo eksklusiivisia kosmetiikkoja sovellusta eniten käyttäville.
 
 Lisätietoja tulevista ominaisuuksista saa myöhemmin järjestettävässä esittely / julkaisu seminaarissa.
 
@@ -70,31 +70,54 @@ Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksestasi.
 Ei tunnettuja virheitä.
 
 # Työn jakautuminen
-Täytä tämä osio vain, jos teit projektin parityönä.
 
-Kuvaile, miten työ jakautui ja miten yhteistyö sujui.
-
-- Tekijä 1: ...
-- Tekijä 2: ...
+- Pyry: 
+    - Frontend kehitys — Suurin osa HTML:stä, alkeelliset JavaScriptit, ja projektin GitHub vastaava.
+    - UI/UX & Graphic Design — Graafiset elementit, Wireframet, CSS tyylit, ja yleinen visuaalinen ilme & esittely.
+    - Kosmetiikka Design — Kosmetiikkojen ja visuaalisten teemojen räätälöinti.
+    - Jatkokehityksen johto — Jatkokehitys, roadmap suunnittelu, ja projektin tulevaisuuden johtaminen.
+- Valtteri:
+    - JavaScript kehitys — Uusien JavaScript ominaisuuksien tekeminen ja olevien ofunktioiden hionta.
+    - Frontend avustus — HTML lisääminen ja projektin rakenteen laajentamista.
+    - Laadunvarmistus ja testaus — Ominasuuksien testaus, virheiden tunnistus ja ongelmien korjaaminen
+    - Liike & Äänisuunnittelu — Animaatioiden luonti ja äänisuunnittelu.
 
 # Oma arvio ja oppimisen reflektointi
 Pohdi työtäsi ja oppimisprosessiasi.
+- Pyry: 
+    - Missä onnistuin? Visuaalinen ilme ja HTML toteutus onnistuivat eritysesti.
+    - Mikä oli haastavaa? JavaScript oli haastavin osa.
+    - Mitä parantaisin, jos aikaa olisi enemmän? Kosmetiikkojen jatkaminen (kts. upcoming features.txt)
+    - Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
+        - HTML:ssä uutta oli svg:n käyttö
+        - CSS yleisen taitojen kehitys
+        - JavaScriptissä CSS muuttujien muuttaminen. DOM taitojen kehitys.
+    - Mikä jäi epäselväksi tai mistä haluaisin oppia lisää? DOM ja JavaScript yleisesti on heikoin puoleni.
+    - Oma arvio projektista: 9/10 pistettä
 
-Missä onnistuin?
-Mikä oli haastavaa?
-Mitä parantaisin, jos aikaa olisi enemmän?
-Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
-Mikä jäi epäselväksi tai mistä haluaisin oppia lisää?
-Oma arvio projektista: xx/10 pistettä
+- Valtteri:
+    - Missä onnistuin?
+    - Mikä oli haastavaa?
+    - Mitä parantaisin, jos aikaa olisi enemmän?
+    - Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
+    - Mikä jäi epäselväksi tai mistä haluaisin oppia lisää?
+    - Oma arvio projektista: xx/10 pistettä
+
 # Lähteet ja kiitokset
-Listaa kaikki projektissa käyttämäsi lähteet, tutoriaalit, kuvat ja koodiesimerkit.
+Lähteet listattuna:
+- https://www.w3schools.com/html/html5_svg.asp
+- https://www.w3schools.com/css/css_font.asp
+- 
 
-Jos käytit ChatGPT:tä, GitHub Copilotia tai muuta tekoälytyökalua, mainitse se tässä ja kerro lyhyesti, miten se tuki työskentelyäsi.
+Käytetty tekoälytyökalu: ChatGPT
 
-Lähteen tai tutoriaalin nimi
+Miten työkalua käytettiin: Esimerkki miten svg:tä käytetään. Koodia ei kopioitu.
 
-Kuvalähde
 
-Käytetty tekoälytyökalu: ...
 
-Miten työkalua käytettiin: ...
+Kiitokset:
+
+Projekti tiimin jäsenet - Ilman teitä ei olisi onnistuttu
+Beta testaajat - Huippu tyyppejä apuna ja tukena läpi projektin
+Suurena apuna graafisessa suunnittelussa - cssgradient.io ja figma color picker
+ja sinä.

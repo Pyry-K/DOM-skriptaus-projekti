@@ -43,22 +43,45 @@ const nykyinenKortti = document.querySelector("#nykyinenKortti");
 roll.addEventListener("click", function () {
   const korttienMaara = kortit.length;
 
-  document.getElementById("die-box").animate([
-        { rotate: '5deg' },
-        { rotate: '-5deg' }
-    ], {
-        duration: 100
-    });  
-
+  if (korttienMaara >= 1) {
+    document.getElementById("die-box").animate(
+        [
+          { rotate: "10deg" },
+          { rotate: "-10deg" },
+          { transform: "rotateX(-45deg)" },
+          { transform: "rotateX(45deg)" },
+          { transform: "rotateY(90deg)" },
+          { transform: "rotateY(-90deg)" },
+          { transform: "rotateZ(45deg)" },
+          { transform: "rotateZ(-45deg)" },
+        ],
+        {
+          duration: 1300,
+          iterations: 2,
+          direction: "alternate"
+        },
+      nykyinenKortti.textContent = "???",  
+      noppaTxT.textContent = "?",
+      roll.disabled = true
+    );
+  }
   if (korttienMaara < 1) {
     nykyinenKortti.textContent = "No To-Do added! Add some below.";
+    nykyinenKortti.style.color = "red";
     noppaTxT.textContent = "?";
     return;
   }
+  
+  else {
+    nykyinenKortti.style.color = "white";
+  }
 
-  const result = Math.floor(Math.random() * korttienMaara);
-  noppaTxT.textContent = result + 1;
-  nykyinenKortti.textContent = kortit[result];
+  setTimeout(function () {
+    const result = Math.floor(Math.random() * korttienMaara);
+    noppaTxT.textContent = result + 1;
+    nykyinenKortti.textContent = kortit[result];
+    roll.disabled = false;
+  }, 2600);
 });
 
 // Skini menu
@@ -89,6 +112,8 @@ const skins = {
     "#2C8BB5",
     "#267DA9",
     "#2274A1",
+    //Stroke
+    "#FFFFFF",
   ],
 
   purple: [
@@ -102,6 +127,8 @@ const skins = {
     "#434099",
     "#3D3A8A",
     "#38367E",
+    //Stroke
+    "#282A28",
   ],
 
   green: [
@@ -115,7 +142,65 @@ const skins = {
     "#415618",
     "#374B15",
     "#2A3C10",
+    // Stroke
+    "#AF8027",
   ],
+  gold: [
+    "#552000",
+    "#F4C300",
+    "#EBBA00",
+    "#DDAC00",
+    "#D09F00",
+    "#BB8900",
+    "#AB7800",
+    "#8F5B00",
+    "#703C00",
+    "#632E00",
+    // Stroken
+    "#F6D200",
+  ],
+  silver: [
+  "#27221F",
+  "#AD9FA1",
+  "#8B7F7E",
+  "#6F6561",
+  "#645B58",
+  "#544D4A",
+  "#484240",
+  "#3C3735",
+  "#312D2C",
+  "#2C2826",
+  // Stroken väri
+  "#670F0D",
+  ],
+  dmc: [
+    "#610102",
+    "#1AC2C2",
+    "#21A5A8",
+    "#298186",
+    "#32575F",
+    "#393944",
+    "#B70405",
+    "#930304",
+    "#820203",
+    "#710203",
+    // Stroken väri
+    "#91A4C1",
+  ],
+  cyber: [
+    "#000006",
+    "#51BFDD",
+    "#46A5C0",
+    "#3D90A8",
+    "#347A90",
+    "#2B6578",
+    "#214E5F",
+    "#183947",
+    "#0F242F",
+    "#08131B",
+    // Stroken väri
+    "#FDF701", 
+],
 };
 
 backgroundColor.addEventListener("change", function () {
@@ -135,10 +220,12 @@ textColor.addEventListener("change", function () {
 
 diceColor.addEventListener("change", function () {
   const colors = skins[diceColor.value];
+  const lastColor = colors[colors.length -1];
 
   polygons.forEach(function (polygon, index) {
     if (colors[index]) {
       polygon.setAttribute("fill", colors[index]);
     }
+    polygon.setAttribute("stroke", lastColor);
   });
 });
