@@ -3,16 +3,16 @@ Tekijät: Pyry Karvinen ja Valtteri Lipponen
 
 # Projektisuunnitelma ja tulevaisuus
 Projektin ideointi lähti käyntiin yksikertaisesta, mutta haastavasta ongelmasta: Miten saan asioita tehtyä?
-Kaikilla on aina välillä tunne, että pitää tehdä paljon hommia, mutta ei osaa valita mistä aloittaisi. Kun kuluttaa tarpeeksi aikaa miettimiseen, niin sitten hommat jäävät jossain vaiheessa tekemättä kokonaan. Tätätä arkista ja äärimmäisen turhauttavaa ongelmaa lähdimme sitten ratkaisemaan.
+Kaikilla on aina välillä tunne, että pitää tehdä paljon hommia, mutta ei osaa valita mistä aloittaisi. Kun kuluttaa tarpeeksi aikaa miettimiseen, niin sitten hommat jäävät jossain vaiheessa tekemättä kokonaan. Tätä arkista ja äärimmäisen turhauttavaa ongelmaa lähdimme sitten ratkaisemaan.
 
-JLaajensimme sitten tätä ongelmaa valinnan lisäksi motivaatioon. Mietimme, miten valitseminen saadaan ratkaistua ei vain tehokkaasti ja yksinkertaisesti, mutta myös mielekkäästi, jotta tekemisen voi aloittaa tehokkaasti.
+Laajensimme sitten tätä ongelmaa valinnan lisäksi motivaatioon. Mietimme, miten valitseminen saadaan ratkaistua ei vain tehokkaasti ja yksinkertaisesti, mutta myös mielekkäästi, jotta tekemisen voi aloittaa tehokkaasti.
 
 Lopulta päädyimme valitsemisen vaikeudessa helppoon lopputulokseen. Mikä auttaa valitsemaan paremmin kuin ei valita ollenkaan?
 Idea saada satunnainen valitsin yhdistettyä To Do listaan syntyi. Jos ei itse saa valittua, niin se on helppo ulkoistaa yksinkertaiselle koodille. Projekti syntyi myös eräänlaisena kannanottona tekoälyä vastaan, sillä niiden antama tulos, vaikka kuinka kysyisi, ei ole satunnainen.
 
-Motivaatio ongelman päätimme ratkaista tekemällä listasta toimivan lisäksi myös mielekkään ja helppokäyttöisen. Keskeisin "mielekkyys ominaisuus", satunnaisuuden kuvastamisen lisäksi, on sivulla oleva noppa. Nopan tarkoitus on tuoda käyttäjälle pelihenkeä tekemiseen, jotta kaikista tylsimmätkin tehtävät saadaan tuntumaan, ainakin vähän vähemmän, työltä. Noppa myös toimi pohjana eri kosmetiikoille, mitkä ovat käyttäjälle valittavissa.Tällä hetkellä valittavissa on vain kolme eri väriteemaa, mutta näistä muodostuu jo 64 eri vaihtoehtoa koko sivulle.
+Motivaatio ongelman päätimme ratkaista tekemällä listasta toimivan lisäksi myös mielekkään ja helppokäyttöisen. Keskeisin "mielekkyys ominaisuus", satunnaisuuden kuvastamisen lisäksi, on sivulla oleva noppa. Nopan tarkoitus on tuoda käyttäjälle pelihenkeä tekemiseen, jotta kaikista tylsimmätkin tehtävät saadaan tuntumaan, ainakin vähän vähemmän, työltä. Noppa myös toimi pohjana eri kosmetiikoille, mitkä ovat käyttäjälle valittavissa.Tällä hetkellä valittavissa on vain kolme eri väriteemaa, mutta näistä muodostuu jo 4116 eri vaihtoehtoa koko sivulle.
 
-Tämän hetkinen "1.0" versio ei vielä hyödynnä suunniteltuja ominaisuuksia vielä täydessä mitassa, sillä ominaisuuksiaen skaala on pieni. Ne kuitenkin ovat kuitenkin porkkanana käyttää motivoimassa. Tulevia suunniteltuja ominaisuuksia ovat mm. uudet kosmetiikat ja saavutukset, jotka motivoivat käyttäjää entisestään tekemään annetut tehtävät, mutta myös palaamaan sovellukseen, ja kokeilemaan sen muita tulevia ominaisuuksia. Lisäksi myöhemmin tulevaisuudessa sovellusta on tarkoitus kaupallistaa maksullisilla kosmetiikoilla ja Battle Pass -idealla, joka varmistaa asiakkaiden palaamista ja luo eksklusiivisia kosmetiikkoja sovellusta eniten käyttäville.
+Tämän hetkinen "1.0" versio ei vielä hyödynnä suunniteltuja ominaisuuksia vielä täydessä mitassa, sillä ominaisuuksien skaala on pieni. Ne kuitenkin ovat kuitenkin porkkanana käyttää motivoimassa. Tulevia suunniteltuja ominaisuuksia ovat mm. uudet kosmetiikat ja saavutukset, jotka motivoivat käyttäjää entisestään tekemään annetut tehtävät, mutta myös palaamaan sovellukseen, ja kokeilemaan sen muita tulevia ominaisuuksia. Lisäksi myöhemmin tulevaisuudessa sovellusta on tarkoitus kaupallistaa maksullisilla kosmetiikoilla ja Battle Pass -idealla, joka varmistaa asiakkaiden palaamista ja luo eksklusiivisia kosmetiikkoja sovellusta eniten käyttäville.
 
 Lisätietoja tulevista ominaisuuksista saa myöhemmin järjestettävässä esittely / julkaisu seminaarissa.
 
@@ -38,7 +38,7 @@ Luonnos on melko yksinkertainen ja joitaain toimintoja, kuten kosmetiikat, ei ol
 # Tietoja sovelluksesta
 ToDo noppa on verkkosovellus, joka poistaa itkun ja hampaiden kiristyksen lisäksi muut mahdolliset ongelmat ja pelot tehtävien valitsemis prosessista.
 
-Sovellus antaa sinun heittää noppaa, jonka tulos on yksi itse lisäämistäsi tehtävistä. Niistä valitaan sitteks joka kerta yksi (nopan lukua vastaava) tehtävä, joka sitten voidaan merkitä tehdyksi.
+Sovellus antaa sinun heittää noppaa, jonka tulos on yksi itse lisäämistäsi tehtävistä. Niistä valitaan sitten joka kerta yksi (nopan lukua vastaava) tehtävä, joka sitten voidaan merkitä tehdyksi.
 
 # Teknologiat
 Projekti ei ole teknologinen ihme. Käytössä on vain yksinkertaisimmat verkkosivun rakentamiseen vaadittavat kielet.
@@ -77,7 +77,7 @@ Ei tunnettuja virheitä.
     - Kosmetiikka Design — Kosmetiikkojen ja visuaalisten teemojen räätälöinti.
     - Jatkokehityksen johto — Jatkokehitys, roadmap suunnittelu, ja projektin tulevaisuuden johtaminen.
 - Valtteri:
-    - JavaScript kehitys — Uusien JavaScript ominaisuuksien tekeminen ja olevien ofunktioiden hionta.
+    - JavaScript kehitys — Uusien JavaScript ominaisuuksien tekeminen ja olevien funktioiden hionta.
     - Frontend avustus — HTML lisääminen ja projektin rakenteen laajentamista.
     - Laadunvarmistus ja testaus — Ominasuuksien testaus, virheiden tunnistus ja ongelmien korjaaminen
     - Liike & Äänisuunnittelu — Animaatioiden luonti ja äänisuunnittelu.
@@ -96,18 +96,22 @@ Pohdi työtäsi ja oppimisprosessiasi.
     - Oma arvio projektista: 9/10 pistettä
 
 - Valtteri:
-    - Missä onnistuin?
-    - Mikä oli haastavaa?
-    - Mitä parantaisin, jos aikaa olisi enemmän?
+    - Missä onnistuin? JavaScripti ja animaatiot on omasta mielestä hyvin onnistuneet.
+    - Mikä oli haastavaa? Sanoisin JavaScript.
+    - Mitä parantaisin, jos aikaa olisi enemmän? 3D d20-noppa animaatio, uusia JS ominaisuuksia kuten achievementit ja QoL
     - Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
-    - Mikä jäi epäselväksi tai mistä haluaisin oppia lisää?
-    - Oma arvio projektista: xx/10 pistettä
+        - HTML svg elementti oli täysin uusi asia.
+        - CSS perustaitojen kehitys.
+        - JS:ssä tuli käytettyä addEventListeneriä, jota en omissa projekteissa ole kauheammin käyttänyt. DOM taidot kehittyi.
+    - Mikä jäi epäselväksi tai mistä haluaisin oppia lisää? CSS on kyllä minun heikkous.
+    - Oma arvio projektista: 9/10 pistettä
 
 # Lähteet ja kiitokset
 Lähteet listattuna:
 - https://www.w3schools.com/html/html5_svg.asp
 - https://www.w3schools.com/css/css_font.asp
-- 
+- https://sentry.io/answers/remove-specific-item-from-array/
+- https://www.w3schools.com/css/css3_3dtransforms.asp
 
 Käytetty tekoälytyökalu: ChatGPT
 
@@ -120,4 +124,4 @@ Kiitokset:
 Projekti tiimin jäsenet - Ilman teitä ei olisi onnistuttu
 Beta testaajat - Huippu tyyppejä apuna ja tukena läpi projektin
 Suurena apuna graafisessa suunnittelussa - cssgradient.io ja figma color picker
-ja sinä.
+ja sinä (käyttäjä).
