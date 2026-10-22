@@ -31,9 +31,9 @@ Sovelluksen tarkoitus on helpottaa valinanvaikeutta sen käyttäjissä. Käyttä
 Luonnos on melko yksinkertainen ja joitaain toimintoja, kuten kosmetiikat, ei oltu vielä edes ajateltu.
 
 # Verkkolinkit
-- Julkaistu sovellus: Lisää tähän GitHub Pages -osoite (https://pyry-k.github.io/DOM-skriptaus-projekti/index.html)
-- GitHub-repositorio: [Repositorion osoite](https://github.com/Pyry-K/DOM-skriptaus-projekti)
-- Projektin videoesittely: Lisää tähän videon osoite
+- Julkaistu sovellus: https://pyry-k.github.io/DOM-skriptaus-projekti/index.html
+- GitHub-repositorio: https://github.com/Pyry-K/DOM-skriptaus-projekti
+- Projektin videoesittely: https://youtu.be/M-yjc1oGmc8
 
 # Tietoja sovelluksesta
 ToDo noppa on verkkosovellus, joka poistaa itkun ja hampaiden kiristyksen lisäksi muut mahdolliset ongelmat ja pelot tehtävien valitsemis prosessista.
