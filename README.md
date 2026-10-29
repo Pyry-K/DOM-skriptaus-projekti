@@ -67,7 +67,7 @@ Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksestasi.
 ![Sovellus toiminnassa](https://github.com/Pyry-K/DOM-skriptaus-projekti/blob/main/img/image-1.png)
 
 # Tunnetut virheet / puutteet
-Ei tunnettuja virheitä.
+- Valkoisella taustalla syöttölaatikon teksti on myös valkoista
 
 # Työn jakautuminen
 
@@ -117,11 +117,20 @@ Käytetty tekoälytyökalu: ChatGPT
 
 Miten työkalua käytettiin: Esimerkki miten svg:tä käytetään. Koodia ei kopioitu.
 
-
-
-Kiitokset:
+# Kiitokset:
 
 Projekti tiimin jäsenet - Ilman teitä ei olisi onnistuttu
+
+
+
+# Paritstauksen tulokset
+Testaava pari: Dylan
+Testitattiin sivun yleistä toimivuuttta.
+Sivu toimii pääosin hyvin. Vaivaa on nähty.
+Virheitä:
+- Valkoisella taustalla syöttölaatikon teksti on myös valkoista
+
+
 Beta testaajat - Huippu tyyppejä apuna ja tukena läpi projektin
 Suurena apuna graafisessa suunnittelussa - cssgradient.io ja figma color picker
 ja sinä (käyttäjä).
